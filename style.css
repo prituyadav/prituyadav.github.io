@@ -95,13 +95,26 @@ span.contrib-number{
   color: rgb(251, 248, 248);
   background-color: black;
   transition: all 0.5s;
-  width: 100%;
+  width: 95%;
+  
 }
 
 
+/* git stats  */
+
+.stats_git{
+  margin-top:60px;
+  /* margin-left:380px; */
+}
 
 
-
+.resume_navigation{
+  margin-left:13px ;
+  color: rgb(237, 19, 19);
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+} 
 
 
 

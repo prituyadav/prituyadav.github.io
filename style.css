@@ -1,10 +1,14 @@
 
 /* my contribution starts */
+.stsc .title::after {
+  content: "What i achieved";
+ 
+}
 #statistic {
   margin: auto;
   text-align: center;
   font-size: 60px;
-  margin-top: 150px;
+  margin-top: 10px;
   font-weight: 600;
   color: #0f0f0f;
   letter-spacing: 10px;
@@ -19,9 +23,7 @@
   width: 90%;
   margin: auto;
   gap: 50px;
-  padding-top: 100px;
   align-content: center;
-  padding-bottom: 200px;
   letter-spacing: 1px;
 }
 .conthead {
@@ -30,7 +32,7 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding-top: 30px;
   font-size: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   transition: all 1s;
 }
 .conthead:hover {
@@ -79,6 +81,18 @@
 
 /* git calender */
 
+
+
+.calc .title::after {
+  content: "What's my Stats";
+ 
+}
+.calc {
+  font-family: "Poppins", sans-serif;
+  margin-top: -90px;
+ 
+}
+
 span.contrib-number{
   color: rgb(251, 248, 248);
 }
@@ -112,7 +126,7 @@ span.contrib-number{
   margin-left:13px ;
   color: rgb(250, 246, 246);
   font-weight: 700;
-  font-size: 20px;
+  font-size: 30px;
   font-family: "Poppins", sans-serif;
 } 
 
@@ -179,6 +193,9 @@ section {
   padding: 0 80px;
   margin: auto;
 }
+
+.calc,
+.stsc,
 .about,
 .services,
 .skills,
@@ -315,8 +332,9 @@ section .title::after {
 /* home section styling */
 .home {
   display: flex;
-  background: url("https://wallpaperaccess.com/full/5651990.jpg") no-repeat center;
-  /* background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbyXiO3FCaRE7B6NPLUfZkfh7pHQ-qwOiQdQ&usqp=CAU") no-repeat center; */
+ /* background: url("https://wallpaperaccess.com/full/5651990.jpg") no-repeat center;
+ background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbyXiO3FCaRE7B6NPLUfZkfh7pHQ-qwOiQdQ&usqp=CAU") no-repeat center; */
+   background: url("https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=820&q=80") no-repeat center; 
   background-color: #111;
   height: 100vh;
   color: #fff;
@@ -678,6 +696,9 @@ section .title::after {
 }
 
 /* contact section styling */
+.contact{
+  margin-top: -98px;
+}
 .contact .title::after {
   content: "get in touch";
 }
@@ -822,7 +843,7 @@ footer span a:hover {
     width: 100%;
     left: -100%;
     top: 0;
-    background: #111;
+    background: #ffcc00;
     text-align: center;
     padding-top: 80px;
     transition: all 0.3s ease;

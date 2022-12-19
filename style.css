@@ -645,7 +645,7 @@ section .title::after {
   align-items: center;
 }
 .techStack {
-  color: purple;
+  color: rgb(233, 91, 14);
 }
 
 .demo-div a,
@@ -654,7 +654,15 @@ section .title::after {
 .demo-div a:link,
 .techStack {
   text-decoration: none;
-  color: white;
+  color: rgb(233, 243, 238);
+}
+
+#tec{
+  font-weight: 800;
+}
+#tec :hover{
+  font-weight: 800;
+  color: rgb(12, 11, 11);
 }
 
 .project .carousel .card img {

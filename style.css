@@ -514,11 +514,11 @@ section .title::after {
 
 /* skills right column */
 .skills .skills-content .column {
-  width: calc(50% - 30px);
+  width: calc(50% - 3px);
   /* border: 2px solid black; */
   height: 60vh;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 .skills .skills-content .left .text {
   font-size: 20px;
